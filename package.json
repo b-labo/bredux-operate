@@ -1,0 +1,48 @@
+{
+  "name": "bredux-operate",
+  "version": "1.0.0",
+  "description": "Operation bind for bredux",
+  "main": "lib",
+  "browser": "shim/browser",
+  "scripts": {
+    "test": "node ./ci/test.js",
+    "prepublish": "node ./ci/build.js && node ./ci/shim.js"
+  },
+  "repository": "b-labo/bredux-operate",
+  "keywords": [
+    "recux"
+  ],
+  "author": {
+    "name": "Taka Okunishi",
+    "email": "okunishinishi@gmail.com",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b-labo/bredux-operate/issues"
+  },
+  "homepage": "https://github.com/b-labo/bredux-operate#readme",
+  "dependencies": {
+    "asobj": "^1.3.1",
+    "co": "^4.6.0"
+  },
+  "devDependencies": {
+    "ababel": "^1.1.10",
+    "ababel-es2015": "^1.0.8",
+    "aglob": "^1.1.1",
+    "amocha": "^1.0.15",
+    "ape-doc": "^2.0.4",
+    "ape-formatting": "^1.0.2",
+    "ape-releasing": "^4.0.4",
+    "ape-reporting": "^3.0.2",
+    "ape-tasking": "^4.0.9",
+    "ape-tmpl": "^5.0.19",
+    "ape-updating": "^4.0.5",
+    "coz": "^6.0.20",
+    "injectmock": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  }
+}
