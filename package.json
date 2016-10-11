@@ -1,6 +1,6 @@
 {
   "name": "bredux-operate",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Operation bind for bredux",
   "main": "lib",
   "browser": "shim/browser",
